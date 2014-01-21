@@ -1,0 +1,55 @@
+/* popup */
+.yitpopup_overlay {
+    background: rgba(0,0,0, .7);
+    display: none;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99998;
+}
+
+.yitpopup_wrapper {
+    background-color: white;
+    padding: 6px 6px 42px 6px;
+    z-index:99999;
+    min-height: 330px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.yitpopup_wrapper a.close {
+    width: 30px;
+    height: 30px;
+    background: transparent url('../images/close-popup.png') top left no-repeat;
+    position: absolute;
+    top: -10px;
+    right: -16px;
+    opacity: 1;
+}
+
+body.yit-popup-opened {
+    overflow: hidden;
+}
+
+/* Contact popup */
+.yitpopup_wrapper h1.title {
+    margin: 0;
+    padding: 11px 30px;
+    margin-bottom: 50px;
+}
+
+/* Popup Container */
+.yitpopup_container{
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.yitpopup_container h2{
+    font-size: 18px;
+    color: #4d4b4b;
+}
+
+.yitpopup_container .contact-form .contact-form-error-messages { margin-top: -45px !important; margin-left: auto;}

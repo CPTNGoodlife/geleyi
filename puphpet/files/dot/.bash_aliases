@@ -50,8 +50,3 @@ alias rm='rm -i'
 alias mv='mv -iv'
 alias grep='grep --color=auto -in'
 alias ..='cd ..'
-
-##Vagrant
-
-
-source /vagrant/files/dot/bashrc

@@ -14,10 +14,16 @@ sql-dump-*.sql
 # Application
 app/uploads
 app/upgrade
-app/plugins/*
 !app/plugins/.gitkeep
 app/mu-plugins/*
+
+# Plugins (not installed via composer)
 !app/mu-plugins/register-theme-directory.php
+
+
+# Themes
+!app/themes/tyrion
+!app/themes/tyrion-child
 
 # Vendor (e.g. Composer)
 vendor/*
@@ -25,6 +31,7 @@ vendor/*
 
 # Node Package Manager
 node_modules
+bower_components
 
 # Vagrant
 bin

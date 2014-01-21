@@ -1,0 +1,33 @@
+.psp-social-status {
+	width: 150px;
+	height: 50px;
+	position: relative;
+}
+	.psp-social-status .psp-lists-icon {
+		display: block;
+		position: relative;
+		bottom: -10px;
+		margin-right: 0px;
+		width: 22px; 
+		height: 22px; 
+	}
+	.psp-social-status label {
+		display: block;
+		margin-right: 5px;
+		position: absolute;
+		top: 15px;
+		left: 32px;
+		font-weight: bold;
+		font-size: 12px;
+		text-align: left;
+	}
+	.psp-social-status span {
+		position: absolute;
+		display: block;
+		font-weight: bold;
+		font-size: 16px;
+	    font-weight: 700;
+	    top: 5px;
+		left: 32px;
+		text-align: left;
+	}

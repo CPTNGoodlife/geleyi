@@ -1,0 +1,655 @@
+body {
+}
+#hc_frontent_ajax_loading_incon {
+    z-index:2000;
+    margin:0px auto;
+    display: none;
+}
+.hc_shortcode_facebook {
+    display: none;
+}
+/* FORM 1 WIDE */
+#hc_template_wrapper {
+}
+#hc_template_wrapper .form1wide {
+    display: none;
+    width:460px;
+    background: #71aed5;
+    border: 3px solid #bcd3e1;
+    color:#fff;
+    font:12px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 0 #5e91b1;
+}
+#hc_template_wrapper .form1wide .content {
+    padding:20px;
+}
+#hc_template_wrapper .form1wide h1 {
+    font-size: 18px;
+    margin-bottom:15px;
+    color: #fff;
+    width: 300px;
+}
+#hc_template_wrapper .form1wide img {
+    float:right;
+    margin:-85px 0 0 0;
+    max-width: 180px;
+    max-height: 200px;
+}
+#hc_template_wrapper .form1wide form {
+    clear:both;
+    overflow:hidden;
+    margin:20px 0 0 0;
+}
+#hc_template_wrapper .form1wide form input {
+    width:200px;
+    height:28px;
+    border:1px solid #5989a8;
+    background:#e9f2f7;
+    font-size:12px;
+    color:#4b7692;
+    padding:0 0 0 10px;
+    margin-top:8px;
+}
+#hc_template_wrapper .form1wide form input.user {
+    background:#e9f2f7 url(img/user.png) no-repeat 185px;
+    float:left;
+}
+#hc_template_wrapper .form1wide form input.email {
+    background:#e9f2f7 url(img/email.png) no-repeat 183px;
+    float:left;
+    clear:left;
+}
+#hc_template_wrapper .form1wide form input.submit {
+    border:none;
+    background:url(img/btn1green.png) no-repeat 0 0;
+    width:196px;
+    height:75px;
+    float:right;
+    color:#fff;
+    font:16px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 1px #809935;
+    font-weight:bold;
+    margin:-33px 0 0 0;
+}
+#hc_template_wrapper .form1wide form input.submit:hover {
+    background:url(img/btn1green.png) no-repeat 0 -78px;
+}
+#hc_template_wrapper .form1wide form input.submit:active {
+    background:url(img/btn1green.png) no-repeat 0 -156px;
+}
+#hc_template_wrapper .form1wide .protected {
+    color:#f0f7fc;
+    width:100%;
+    background:#8cbddd url(img/protected.png) no-repeat 20px;
+    font-size:11px;
+    padding:10px 0 10px 0;
+}
+#hc_template_wrapper .form1wide .protected p {
+    margin:0 0 0 50px;
+    display:block;
+}
+#hc_template_wrapper .form1wide .hc_shortcode_facebook a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#hc_template_wrapper .form1wide .hc_shortcode_facebook {
+    padding: 10px;
+}
+/* FORM 2 WIDE */
+#hc_template_wrapper .form2wide {
+    display: none;
+    width:590px;
+    height:276px;
+    background: #f8f8f8;
+    border: 1px solid #d1d1d1;
+    color:#a5a5a5;
+    font:12px Verdana, Geneva, sans-serif;
+    -webkit-box-shadow: 0 0 2px #727272;
+    -moz-box-shadow: 0 0 2px #727272;
+    box-shadow: 0 0 2px #c3c3c3;
+}
+#hc_template_wrapper .form2wide .content {
+    padding:20px;
+}
+#hc_template_wrapper .form2wide h1 {
+    font-size:18px;
+    color:#479fd9;
+    margin-bottom:15px;
+}
+#hc_template_wrapper .form2wide img {
+    float:right;
+    margin:-85px 0 0 0;
+    max-width: 180px;
+    max-height: 200px;
+}
+#hc_template_wrapper .form2wide .formwrapper {
+    width:100%;
+    background:#c7ddeb;
+    clear:both;
+    padding:10px 0 10px 0;
+}
+#hc_template_wrapper .form2wide form {
+    overflow:hidden;
+    display: none;
+}
+#hc_template_wrapper .form2wide form input {
+    width:180px;
+    height:28px;
+    border:1px solid #9daeb9;
+    background:#fff;
+    font-size:12px;
+    color:#a7a6a6;
+    padding:0 0 0 10px;
+    float:left;
+}
+#hc_template_wrapper .form2wide form input.user {
+    background:#fff url(img/user.png) no-repeat 165px;
+    margin-left:20px;
+}
+#hc_template_wrapper .form2wide form input.email {
+    background:#fff url(img/email.png) no-repeat 163px;
+    margin-left:10px;
+}
+#hc_template_wrapper .form2wide form input.submit {
+    border:none;
+    background:url(img/btn2green.png) no-repeat 0 0;
+    width:133px;
+    height:33px;
+    color:#fff;
+    font:12px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 1px #809935;
+    font-weight:bold;
+    margin:0 0 0 10px;
+    cursor:pointer;
+    padding: 0;
+}
+#hc_template_wrapper .form2wide form input.submit:hover {
+    background:url(img/btn2green.png) no-repeat 0 -36px;
+}
+#hc_template_wrapper .form2wide form input.submit:active {
+    background:url(img/btn2green.png) no-repeat 0 -72px;
+}
+#hc_template_wrapper .form2wide .protected {
+    color:#bababa;
+    width:100%;
+    background: url(img/protected.png) no-repeat 20px;
+    font-size:11px;
+    padding:10px 0 10px 0;
+    margin:5px 0 0 0;
+}
+#hc_template_wrapper .form2wide .protected p {
+    margin:0 0 0 50px;
+    display:block;
+}
+#hc_template_wrapper .form2wide .hc_shortcode_facebook {
+    padding: 10px;
+}
+#hc_template_wrapper .form2wide .hc_shortcode_facebook a {
+    color: #333333;
+    text-decoration: none;
+}
+/* FORM 3 WIDE */
+#hc_template_wrapper .form3wide {
+    display: none;
+    width:510px;
+    height:390px;
+    background: #9eb09a;
+    border-top: 7px solid #6c8c66;
+    border-bottom: 7px solid #6c8c66;
+    color:#fff;
+    font:12px Verdana, Geneva, sans-serif;
+    text-shadow: 0 1px 0 #859481;
+}
+#hc_template_wrapper .form3wide .left {
+    float:left;
+    width:240px;
+}
+#hc_template_wrapper .form3wide .right {
+    float:right;
+}
+#hc_template_wrapper .form3wide p {
+    font-style:italic;
+}
+#hc_template_wrapper .form3wide .content {
+    padding:20px;
+}
+#hc_template_wrapper .form3wide h1 {
+    font-size: 18px;
+    margin-bottom:15px;
+}
+#hc_template_wrapper .form3wide img {
+    max-height: 200px;
+    max-width: 180px;
+    margin:-85px 0 0 0;
+}
+#hc_template_wrapper .form3wide form {
+    overflow:hidden;
+    margin:0 0 0 0;
+}
+#hc_template_wrapper .form3wide form input {
+    width:190px;
+    height:28px;
+    border:1px solid #7d8b7a;
+    background:#fff;
+    font-size:12px;
+    color:#598750;
+    padding:0 0 0 10px;
+    margin-top:8px;
+}
+#hc_template_wrapper .form3wide form input.user {
+    background:#fff url(img/user2.png) no-repeat 175px;
+    float:left;
+}
+#hc_template_wrapper .form3wide form input.email {
+    background:#fff url(img/email2.png) no-repeat 175px;
+    float:left;
+    clear:left;
+}
+#hc_template_wrapper .form3wide form input.submit {
+    border:none;
+    background:url(img/btn3green.png) no-repeat 0 0;
+    width:194px;
+    height:64px;
+    float:left;
+    clear:left;
+    color:#fff;
+    font:16px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 1px #809935;
+    font-weight:bold;
+}
+.form3wide form input.submit:hover {
+    background:url(img/btn3green.png) no-repeat 0 -71px;
+}
+.form3wide form input.submit:active {
+    background:url(img/btn3green.png) no-repeat 0 -139px;
+}
+#hc_template_wrapper .form3wide .hc_shortcode_facebook {
+    padding: 10px;
+}
+#hc_template_wrapper .form3wide .hc_shortcode_facebook a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* FORM 1 SIDE */
+#hc_template_wrapper .form1side {
+    display: none;
+    width:211px;
+    height:420px;
+    background: #f6fbfb url(img/form1sidebg.png) repeat;
+    border: 5px solid #98c4c6;
+    color:#79abad;
+    font:12px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 0 #fff;
+}
+#hc_template_wrapper .form1side .content {
+    padding:10px;
+}
+#hc_template_wrapper .form1side h1 {
+    font-size: 18px;
+    margin-bottom:15px;
+    color:#33b0b6;
+}
+#hc_template_wrapper .form1side img {
+    float:right;
+    margin:-85px 0 0 0;
+    max-height: 200px;
+    max-width: 180px;
+}
+#hc_template_wrapper .form1side form {
+    overflow:hidden;
+    margin:0 0 0 13px;
+}
+#hc_template_wrapper .form1side form input {
+    width:180px;
+    height:25px;
+    border:1px solid #dadfdf;
+    background:#f8fafa;
+    font-size:12px;
+    color:#aaaaab;
+    padding:0 0 0 10px;
+    margin-top:8px;
+    font-style:italic;
+}
+#hc_template_wrapper .form1side form input.user {
+    background:#fff url(img/user2.png) no-repeat 165px;
+    float:left;
+}
+#hc_template_wrapper .form1side form input.email {
+    background:#fff url(img/email2.png) no-repeat 165px;
+    float:left;
+    clear:left;
+}
+#hc_template_wrapper .form1side form input.submit {
+    border:none;
+    background:url(img/btn4green.png) no-repeat 0 0;
+    width:191px;
+    height:34px;
+    float:left;
+    clear:left;
+    color:#fff;
+    font:14px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 1px #809935;
+}
+#hc_template_wrapper .form1side form input.submit:hover {
+    background:url(img/btn4green.png) no-repeat 0 -42px;
+}
+#hc_template_wrapper .form1side form input.submit:active {
+    background:url(img/btn4green.png) no-repeat 0 -83px;
+    margin-top:11px;
+}
+/* FORM 2 SIDE */
+#hc_template_wrapper .form2side {
+    display: none;
+    width:230px;
+    height:470px;
+    background: #f2f2ef;
+    border: 1px solid #d1d1d1;
+    color:#939393;
+    font:12px Verdana, Geneva, sans-serif;
+    -webkit-box-shadow: inset 1px 1px #fff;
+    -moz-box-shadow: inset 1px 1px #fff;
+    box-shadow: inset 1px 1px #fff;
+    text-shadow:0 1px 0 #fff;
+}
+#hc_template_wrapper .form2side .content {
+    background:#e4e4e1;
+    padding:15px;
+}
+#hc_template_wrapper .form2side h1 {
+    font-size: 18px;
+    margin-bottom:15px;
+    color:#727272;
+    text-shadow:none;
+}
+#hc_template_wrapper .form2side img {
+    margin:-85px 0 0 15px;
+    max-height: 200px;
+    max-width: 180px;
+}
+#hc_template_wrapper .form2side form {
+    overflow:hidden;
+    margin:0 0 0 18px;
+}
+#hc_template_wrapper .form2side form input {
+    width:180px;
+    height:25px;
+    border:1px solid #e3e3e0;
+    background:#f8fafa;
+    font-size:12px;
+    color:#aaaaab;
+    padding:0 0 0 10px;
+    margin-top:8px;
+    font-style:italic;
+    -webkit-box-shadow: inset 0 1px 2px #f2f2f1;
+    -moz-box-shadow: inset 0 1px 2px #f2f2f1;
+    box-shadow: inset 0 1px 2px #f2f2f1;
+}
+#hc_template_wrapper .form2side form input.user {
+    background:#fff url(img/user3.png) no-repeat 167px;
+    float:left;
+}
+#hc_template_wrapper .form2side form input.email {
+    background:#fff url(img/email3.png) no-repeat 165px;
+    float:left;
+    clear:left;
+}
+#hc_template_wrapper .form2side form input.submit {
+    border:none;
+    background:url(img/btn5green.png) no-repeat 0 0;
+    width:191px;
+    height:46px;
+    float:left;
+    clear:left;
+    color:#fff;
+    font:14px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 1px #809935;
+    font-weight:bold;
+}
+#hc_template_wrapper .form2side form input.submit:hover {
+    background:url(img/btn5green.png) no-repeat 0 -59px;
+}
+#hc_template_wrapper .form2side form input.submit:active {
+    background:url(img/btn5green.png) no-repeat 0 -115px;
+    margin-top:8px;
+}
+/* FORM 3 SIDE */
+#hc_template_wrapper .form3side {
+    display: none;
+    width:225px;
+    height:550px;
+    background: #f6fbfb;
+    border: 1px solid #d1d1d1;
+    color:#939393;
+    font:12px Verdana, Geneva, sans-serif;
+    -webkit-box-shadow: 0 0 2px #d6d6d6;
+    -moz-box-shadow: 0 0 2px #d6d6d6;
+    box-shadow: 0 0 2px #d6d6d6;
+}
+#hc_template_wrapper .form3side .content {
+    padding:15px;
+}
+#hc_template_wrapper .form3side h1 {
+    font-size: 18px;
+    margin-bottom:15px;
+    color:#62a350;
+    text-shadow:none;
+    text-align:center;
+}
+#hc_template_wrapper .form3side img {
+    margin:-85px 0 0 15px;
+    max-height: 200px;
+    max-width: 180px;
+}
+#hc_template_wrapper .form3side form {
+    overflow:hidden;
+    margin:0 0 0 4px;
+}
+#hc_template_wrapper .form3side .form3sidebottom {
+    width:230px;
+    height:91px;
+    background:url(img/form3sidebottom.png) no-repeat;
+}
+#hc_template_wrapper .form3side form input {
+    width:180px;
+    height:25px;
+    border:1px solid #e3e3e0;
+    background:#f8fafa;
+    font-size:12px;
+    color:#aaaaab;
+    padding:0 0 0 10px;
+    margin-top:8px;
+    font-style:italic;
+    -webkit-box-shadow: inset 0 1px 2px #f2f2f1;
+    -moz-box-shadow: inset 0 1px 2px #f2f2f1;
+    box-shadow: inset 0 1px 2px #f2f2f1;
+}
+#hc_template_wrapper .form3side form input.user {
+    background:#fff url(img/user3.png) no-repeat 167px;
+    float:left;
+}
+#hc_template_wrapper .form3side form input.email {
+    background:#fff url(img/email3.png) no-repeat 165px;
+    float:left;
+    clear:left;
+}
+#hc_template_wrapper .form3side form input.submit {
+    border:none;
+    background:url(img/btn6green.png) no-repeat 0 0;
+    width:195px;
+    height:36px;
+    float:left;
+    clear:left;
+    color:#fff;
+    font:14px Verdana, Geneva, sans-serif;
+    text-shadow:0 1px 1px #809935;
+    font-weight:bold;
+}
+#hc_template_wrapper .form3side form input.submit:hover {
+    background:url(img/btn6green.png) no-repeat 0 -42px;
+}
+#hc_template_wrapper .form3side form input.submit:active {
+    background:url(img/btn6green.png) no-repeat 0 -84px;
+}
+.form3side .protected {
+    color:#8c8c8c;
+    background: url(img/protected.png) no-repeat 20px 40px;
+    font-size:11px;
+    padding:35px 0 0 0;
+    margin-left:-7px;
+}
+.form3side .protected p {
+    margin:0 0 0 50px;
+    display:block;
+}
+/*
+    FACEBOOK AREA
+*/
+div.facebookWrapper {
+	padding: 0px 10px 0px 10px;
+	margin-top: 50px;
+	width: auto;
+	height: 63px;
+}
+div.leftArrow {
+	float: left;
+	width: auto;
+}
+div.farLeftArrow	{
+	background: url('img/farLeftArrow.png') no-repeat;
+	float: left;
+	height: 61px;
+	width: 30px;
+}
+div.centerLeftArrow {
+	background: url('img/centerArrow.png') repeat-x;
+	float: left;
+	height: 61px;
+	width: 5px;
+}
+div.rightLeftArrow {
+	background: url('img/rightLeftArrow.png') no-repeat;
+	float: left;
+	height: 61px;
+	width: 37px;
+}
+div.rightArrow {
+	float: left;
+	width: auto;
+}
+div.farRightArrow	{
+	background: url('img/farRightArrow.png') no-repeat;
+	float: left;
+	height: 61px;
+	width: 30px;
+}
+div.centerRightArrow {
+	background: url('img/centerArrow.png') repeat-x;
+	float: left;
+	height: 61px;
+	width: 10px;
+}
+div.leftRightArrow {
+	background: url('img/leftRightArrow.png') no-repeat;
+	float: left;
+	height: 61px;
+	width: 37px;
+}
+div.actualFacebook {
+	float: left;
+	height: 53px;
+	padding: 10px 10px 0px 10px;
+	width: auto;
+}
+div.leftFacebook {
+	/*background: url('img/facebook-ico.jpg') no-repeat;*/
+	float: left;
+	height: 22px;
+	width: 22px;
+}
+div.centerFacebook {
+	/*background: url('img/facebook_bg.jpg') repeat-x;*/
+	float: left;
+	height: 22px;
+	width: auto;
+}
+div.rightFacebook {
+	/*background: url('img/rightFacebook.png') no-repeat;*/
+	float: left;
+	height: 22px;
+	width: 10px;
+}
+p.facetext {
+	color: #ffffff;
+	font-size: 12px;
+	font-style: normal;
+	margin: 0px;
+	padding: 3px 3px 0px 3px;
+}
+div.expandableBubble {
+	float: left;
+}
+div.leftexpandableBubble {
+	background: url('img/bubbleArrow.png') repeat-x;
+	float: left;
+	height: 49px;
+	width: 100px;
+}
+div.leftArrowBubble {
+	background: url('img/bubbleLetArrow.png') no-repeat;
+	float: left;
+	height: 49px;
+	width: 33px;
+}
+div.rightexpandableBubble{
+	background: url('img/bubbleArrow.png') repeat-x;
+	float: left;
+	height: 49px;
+	width: 100px;
+}
+div.rightArrowBubble {
+	background: url('img/bubbleRightArrow.png') no-repeat;
+	float: left;
+	height: 49px;
+	width: 33px;
+}
+div.facebookWrapper2{
+	padding: 0px 30px 0px 30px;
+	width: auto;
+	height: 43px;
+}
+div.leftGreenArrow {
+	float: left;
+	padding-top: 8px;
+	width: auto;
+}
+div.expandableGreenArrow {
+	background: url('img/greenArrow.png') repeat-x;
+	float: left;
+	height: 25px;
+	width: 50px;
+}
+div.farLeftGreenArrow {
+	background: url('img/greenLeftArrow.png') no-repeat;
+	float: left;
+	height: 25px;
+	width: 42px;
+}
+div.RightGreenArrow {
+	float: left;
+	padding-top: 8px;
+	width: auto;
+}
+div.farRightGreenArrow{
+	background: url('img/greenRightArrow.png') repeat-x;
+	float: left;
+	height: 25px;
+	width: 42px;
+}
+div.clear {
+	clear: both;
+}
+div.facebookWrapper3{
+	padding: 40px 15px 0px 15px;
+	width: auto;
+	height: 43px;
+}

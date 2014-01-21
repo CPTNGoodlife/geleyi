@@ -1,0 +1,115 @@
+/**
+ * Main YITH WooCommerce Wishlist CSS
+ *
+ * @author Your Inspiration Themes
+ * @package YITH WooCommerce Wishlist
+ * @version 1.0.0
+ */
+
+.woocommerce-wishlist h2 {
+	text-transform: uppercase; }
+
+/* Popup message */
+#yith-wcwl-popup-message {
+    background:#fff;
+    border: 1px solid #dcd7d7;
+    text-transform: uppercase;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    z-index: 100000; /* Thanks WP -.- */
+	        box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.15);
+	   -moz-box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+#yith-wcwl-message {
+    background: #fff url('images/wishlist-added.png') no-repeat 21px 15px;
+    padding: 16px 24px 13px 46px;
+    margin: 3px;
+    border: 1px solid #efefef;
+}
+
+/* Wishlist table template */
+.wishlist_table {}
+.woocommerce table.shop_table.wishlist_table th.product-name { padding-left: 0 !important; }
+.wishlist_table tr th,
+.wishlist_table tr td { background: transparent; text-align: center !important; }
+.wishlist_table tr th.product-name, .wishlist_table tr td.product-name { text-align: left !important; }
+.wishlist_table tr td.product-thumbnail, .wishlist_table tr td.product-name { text-align: left; }
+.wishlist_table tr td.product-stock-status span.wishlist-in-stock { color: #297E29; }
+.wishlist_table tr td.product-stock-status span.wishlist-out-of-stock { color: #F00; }
+.wishlist_table tr td.product-add-to-cart { width:18%; }
+
+.woocommerce table.shop_table.wishlist_table td.product-price,
+.woocommerce table.shop_table.wishlist_table td.product-stock-status { text-align: center; }
+
+/* Wishlist buttons */
+.summary .single_add_to_wishlist.button, div.product .woocommerce-price-and-add .single_add_to_wishlist.button { margin: 0px; }
+.yith-wcwl-add-to-wishlist { margin-top: 10px; }
+.single_add_to_wishlist.button {
+    background-image: url('images/heart.png') !important;
+    background-position: 8px !important;
+    background-repeat: no-repeat !important;
+    padding: 0px 10px 0px 35px;
+}
+
+.single_add_to_wishlist.button:hover {
+    background-color: #868686 !important;
+}
+
+.woocommerce-page .wishlist_table .add_to_cart.button {
+    background: none;
+	height: 29px;
+}
+.woocommerce-page .wishlist_table .add_to_cart.button:hover {
+    background: none;
+}
+
+/* Share buttons */
+.yith-wcwl-share ul {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.yith-wcwl-share ul, .yith-wcwl-share li { height: 21px; position: relative; right: 3px; }
+.yith-wcwl-share li + li { margin-left: 5px; }
+
+.yith-wcwl-share li a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icons/socials-simple-black-small/socials-simple-black.png") no-repeat scroll 0 top transparent;
+    border: 0;
+    text-decoration: none;
+}
+
+.yith-wcwl-share li a.facebook         { background-position:  -22px 0; }
+.yith-wcwl-share li a.twitter          { background-position: -190px 0; }
+.yith-wcwl-share li a.pinterest        { background-position: -126px 0; }
+.yith-wcwl-share li a.googleplus       { background-position:  -63px 0; }
+.yith-wcwl-share li a.facebook:hover   { background-position:  -22px -16px; }
+.yith-wcwl-share li a.twitter:hover    { background-position: -190px -16px; }
+.yith-wcwl-share li a.pinterest:hover  { background-position: -126px -16px; }
+.yith-wcwl-share li a.googleplus:hover { background-position:  -63px -16px; }
+
+.yith_magnifier_zoom_magnifier {border-width:1px;}
+
+.woocommerce .wishlist_table .product-add-to-cart a.add_to_cart.button.alt {
+    text-shadow: none;
+}
+/* AJAX loading gif */
+.yith-wcwl-add-to-wishlist .ajax-loading {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    display: inline !important;
+    margin-left: 5px;
+    vertical-align: middle;
+    visibility: hidden;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+#sidebar-product-single .product-box .buttons .yith-wcwl-add-to-wishlist { margin-top: 0px; }

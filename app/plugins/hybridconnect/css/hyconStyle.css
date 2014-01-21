@@ -1,0 +1,55 @@
+table.namietable{border-collapse:collapse;border-top:1px solid #c8c9b1;border-right:1px solid #c8c9b1;margin-bottom:10px;}
+table.namietable th{border-bottom:1px solid #c8c9b1;border-left:1px solid #c8c9b1;text-align:center;padding:10px;background:#eee;color:#7e7f7d;font-weight:bold;line-height:1.5em; font-size:12px;}
+table.namietable td{border-bottom:1px solid #c8c9b1;border-left:1px solid #c8c9b1;padding:10px;text-align:center;font-size:1.0em;line-height:1.8em; font-size:12px;}
+table.namietable th.date{width:100px;}table.namietable th.place{width:80px;}
+table.namietable td.t1{background:#f9fdf2;}
+table.namietable td.t2{background:#f9fdf2; text-align:left;}
+table.namietable td.t3{background:#ecf9da;}
+table.namietable td.t4{background:#e6f7ce;}
+table.namietable caption{background:url('img/tc-1.gif') no-repeat;height:30px;font-size:1.2em;padding:0px 0px 0px 0px;font-weight:bold;color:#568e07;text-align:left;}
+#mailingListOptions { width:800px;margin:0px auto;display:none;overflow:hidden; padding:20px; padding-right:0px; background:#ffffff;top:200px;position:absolute;left:50%;position:absolute;margin-left:-400px;border:1px solid #000000; }
+#addNewConnector {
+    overflow:auto;
+    max-height:500px;
+    width:800px;
+    margin:0px auto;
+    display:none;
+    padding:20px;
+    padding-right:0px;
+    background:#ffffff;
+    top:200px;
+    position:absolute;
+    left:50%;
+    position:absolute;
+    margin-left:-400px;
+    border:1px solid #000000;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+#closemenu {
+    background-image:url("../images/close-icon.png");
+    background-repeat:no-repeat;
+    height:32px;
+    width:32px;
+    width:800px;
+    margin:0px auto;
+    display:none;
+    overflow:hidden;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    top:200px;
+    position:absolute;
+    left:50%;
+    position:absolute;
+    margin-left:-400px;
+    background-position: right;
+    padding-right:3px;
+    z-index: 2000;
+}
+#confirmationWindow { width:700px;display:none;background-color:#FFFFE0;border-color:#E6DB55;-moz-border-radius:3px 3px 3px 3px;border-style:solid;border-width:1px;margin:0px auto;margin-top:15px; padding:10px;}
+#gtowOptions { width:800px;margin:0px auto;display:none;overflow:hidden; padding:20px; padding-right:0px; background:#ffffff;top:200px;position:absolute;left:50%;position:absolute;margin-left:-400px;border:1px solid #000000; }
+#connectorsLoading { z-index:1000; width:600px; margin:0px auto; top:500px; }
+#confirmationWindowWebinar { width:700px;display:none;background-color:#FFFFE0;border-color:#E6DB55;-moz-border-radius:3px 3px 3px 3px;border-style:solid;border-width:1px;margin:0px auto;margin-top:15px; padding:10px;}
+.hy_txt_copy_input {
+}

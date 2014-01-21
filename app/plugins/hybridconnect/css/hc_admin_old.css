@@ -1,0 +1,365 @@
+/*
+    Document   : hc_admin.css
+    Created on : Oct 19, 2011, 4:00:35 PM
+    Author     : George Vlad
+    Description: Stylesheet for Administration Panel of Hybrid Connect Wordpress Plugin
+*/
+/*
+* ADMIN PAGE
+*/
+#hc_admin_confirmation_dialog {
+    display: none;
+}
+#hc_admin_notification_dialog {
+    display: none;
+}
+.clear {
+    clear: both;
+}
+table.hc_table_fb_settings {
+    border-collapse:collapse;
+    border:1px solid #c8c9b1;
+    margin-bottom:10px;
+}
+table.hc_table_fb_settings td {
+    padding: 10px;
+    border:1px solid #c8c9b1;
+    text-align: center;
+}
+table.hc_table_fb_settings .label_column {
+    background:#EEEEEE;
+    color:#7E7F7D;
+    font-weight: bold;
+}
+table.hc_table_fb_settings .service_label {
+    background:#EEEEEE;
+    color:#7E7F7D;
+    font-weight: bold;
+    width: 200px;
+}
+table.hc_table_fb_settings .update_column {
+    width: 400px;
+}
+#hc_admin_ajax_loading {
+    z-index:2000;
+    width:600px;
+    margin:0px auto; top:500px;
+    display: none;
+}
+#hc_admin_ajax_loading_front {
+    z-index:3000;
+    width:600px;
+    margin:0 auto;
+    top:200px;
+    display: none;
+}
+/*
+* END ADMIN PAGE
+*/
+/*
+* ADMIN CONNECTORS LIST
+*/
+table.hc_admin_connectors_table {
+    border-collapse:collapse;
+    border:1px solid #c8c9b1;
+    margin-bottom:10px;
+}
+table.hc_admin_connectors_table th {
+    background:#EEEEEE;
+    color:#7E7F7D;
+    font-weight: bold;
+    padding: 10px;
+    border:1px solid #c8c9b1;
+    text-align: center;
+}
+table.hc_admin_connectors_table td {
+    padding: 10px;
+    border:1px solid #c8c9b1;
+    text-align: center;
+}
+/*
+* END ADMIN CONNECTORS LIST
+*/
+/*
+* ADMIN CONNECTOR DIALOGS AND CONTAINER
+*/
+#hc_admin_new_connector_container {
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height:500px;
+    width:800px;
+    margin:0 auto;
+    display:none;
+    padding:20px;
+    padding-right:0px;
+    background:#ffffff;
+    top: 35px;
+    left: 50%;
+    position: absolute;
+    margin-left: -400px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	khtml-border-radius:15px;
+	-webkit-border-radius:15px;
+    border: 8px solid rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+    z-index: 1000;
+	-moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;
+}
+.hc_admin_new_connector_top {
+    height: 20px;
+    width: 100%;
+    margin-top: -20px;
+}
+.hc_admin_new_connector_top .hc_admin_new_connector_top_close {
+   position:relative;
+   margin:13px 0 0 735px;
+   cursor:pointer;
+}
+.hc_admin_new_connector {
+    width:750px;
+}
+.hc_admin_new_connector .tableConnectorDetails {
+    border-collapse:collapse;
+    border:1px solid #c8c9b1;
+    margin-bottom:10px;
+    width: 95%;
+}
+.hc_admin_new_connector .tableConnectorDetails td{
+    padding: 10px;
+    border:1px solid #c8c9b1;
+    text-align: center;
+}
+.hc_admin_new_connector .tableConnectorDetails .label_column{
+    background:#EEEEEE;
+    color:#7E7F7D;
+    font-weight: bold;
+}
+.hc_admin_new_connector .tableConnectorDetails .input_column{
+    padding: 10px;
+    border:1px solid #c8c9b1;
+    text-align: left;
+}
+#sel_hc_connector_type {
+	width:200px;
+}
+#txt_hc_connector_name {
+	width:200px;
+}
+#sel_hc_connector_thanksPage {
+	width:200px;
+}
+#hc_registration_role {
+	width:125px;
+}
+#btn_hc_admin_add_connector {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:100px !important;
+	height:30px !important;
+	margin:10px 0 0 335px;
+	cursor:pointer;
+}
+#hc_submit_admin_widget_template {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:100px !important;
+	height:30px !important;
+	margin:10px 0 0 330px;
+	cursor:pointer;
+}
+#hc_submit_admin_webinar_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:100px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_remove_admin_webinar_settings {
+	background:#f7cece !important;
+	font-weight:bold;
+	width:120px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_admin_mail_list_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:100px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_remove_admin_mail_list_settings {
+	background:#f7cece !important;
+	font-weight:bold;
+	width:140px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_button_add_connector {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:150px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_fb_settings  {
+	background:#d0d8f7 !important;
+	font-weight:bold;
+	width:200px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_infusionsoft_settings   {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:190px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_aweber_settings   {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:190px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_officeautopilot_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:190px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_constantcontact_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:210px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_getresponse_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:190px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_icontact_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:190px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_mailchimp_settings {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:190px !important;
+	height:30px !important;
+	cursor:pointer;
+}
+#hc_submit_admin_shortcode_style {
+	background:#cbf8af !important;
+	font-weight:bold;
+	width:100px !important;
+	height:30px !important;
+	margin:10px 0 0 330px;
+	cursor:pointer;
+}
+.hc_admin_new_connector .labelHeader{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hc_admin_new_connector .labelHeader .selTpls{
+    float: left;
+    width: 350px;
+    padding-top: 10px;
+}
+.hc_admin_new_connector .labelHeader .imgTpls{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
+#sc_tpl_screenshot, #wc_tpl_screenshot{
+    max-height: 200px;
+    max-width: 200px;
+}
+.hc_admin_new_connector .labelStep{
+    font-weight: bold;
+}
+#hc_admin_mail_list_settings_container {
+    overflow-y:scroll;
+	overflow-x:hidden;
+	height:500px;
+    width:800px;
+    margin:0 auto;
+    display:none;
+    padding:20px;
+    padding-right:0px;
+    background:#ffffff;
+    top: 35px;
+    left: 50%;
+    position: absolute;
+    margin-left: -400px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	khtml-border-radius:15px;
+	-webkit-border-radius:15px;
+    border: 8px solid rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+    z-index: 1000;
+	-moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;
+}
+#hc_admin_webinar_settings_container {
+	overflow-x:hidden;
+    width:800px;
+    margin:0 auto;
+    display:none;
+    padding:20px;
+    padding-right:0px;
+    background:#ffffff;
+    top: 35px;
+    left: 50%;
+    position: absolute;
+    margin-left: -400px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	khtml-border-radius:15px;
+	-webkit-border-radius:15px;
+    border: 8px solid rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+    z-index: 100;
+	-moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;
+}
+/*
+* END ADMIN CONNECTOR DIALOG AND CONTAINER
+*/
+/*
+* STYLE WIDGET PANEL
+*/
+#hc_admin_sel_shortcode_template {
+    height: 22px;
+    font-size: 13px;
+    padding: 0px;
+    font-weight: normal;
+}
+#hc_settings_shortcode_style_container_2 td {
+    text-align: left;
+}

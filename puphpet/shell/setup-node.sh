@@ -15,4 +15,5 @@ ln -s /opt/node/bin/npm /usr/bin/npm
 npm install -g grunt-cli >/dev/null
 npm install -g grunt >/dev/null
 npm install -g bower >/dev/null
+
 echo 'Done!'

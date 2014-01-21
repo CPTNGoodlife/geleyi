@@ -1,0 +1,5 @@
+.boxed .slider.revolution-slider { margin-left: -20px; margin-right: -20px; }
+#primary .slider.revolution-slider { margin-left:0 !important; margin-right:0 !important; }
+#primary .slider.revolution-slider.alignright { margin-left:20px !important; }
+#primary .slider.revolution-slider.alignleft { margin-right:20px !important; }
+.revolution-slider-text { padding-top:15px; }

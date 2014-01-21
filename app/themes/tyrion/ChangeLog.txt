@@ -1,0 +1,75 @@
+------------------ VER 1.1.0 ---------------
+Added: Compatibility to WordPress 3.8
+Added: YITH WooCommerce Hide Price Plugin
+Added: support to FB Connect free plugin and integrated with the theme
+Fixed: Google Rich Snippets
+Fixed: Prev/Next button in Single Product page with quick view disabled
+Fixed: option to show the share in the product detail page.
+Removed: Unavailable options "Link or Button" from YITH WooCommerce Compare
+
+UPDATED:
+ChangeLog.txt
+languages/default.po
+languages/yit.pot
+style.css
+tyrion-child/style.css
+woocommerce/style.css
+core/assets/css/tinymce.css
+woocommerce/single-product/rating.php
+woocommerce/single-product/review.php
+my-account.php
+theme/assets/images/fblogin_bg.png
+theme/assets/images/fblogin_icon.png
+theme/assets/images/fblogin_icon2.png
+theme/plugins.php
+theme/yit/Splash.php
+woocommerce/myaccount/form-login.php
+woocommerce/myaccount/my-address.php
+theme/plugins/yith-woocommerce-hide-price.zip
+core/yit/CPT_Unlimited.php
+core/yit/Faq.php
+core/yit/Services.php
+core/yit/Testimonial.php
+theme/yit/Faq.php
+theme/yit/Logo.php
+woocommerce/single-product/close-quick-view.php
+cache/google_fonts.json
+theme/woocommerce.php
+core/assets/css/metaboxes.css
+core/assets/css/panel.css
+core/lib/yit/Type/Types/Select.php
+core/yit/Splash.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+
+------------------ VER 1.0.2 ---------------
+Added: Prev/Next button in Product Single template
+Updated: improved speed in images loading
+Fixed: Reset Navigation CSS
+Fixed: Bugs at mobile resolution
+
+UPDATED:
+core/assets/css/responsive.css
+core/lib/yit/Type/Types/Bgpreview.php
+core/yit/Css.php
+core/yit/Image.php
+css/responsive.css
+theme/woocommerce.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+theme/templates/header/slider.php
+theme/widgets/text_image.php
+theme/yit/Popup.php
+theme/assets/css/contact_form.css
+theme/plugins/yith-woocommerce-colors-labels-variations.zip
+woocommerce/single-product/close-quick-view.php
+woocommerce/style.css
+woocommerce/images/single_product_arrow.png
+style.css
+
+
+------------------ VER 1.0.1 ---------------
+Fixed: Wrong URLs and names in child theme folder
+Fixed: Added to cart message disappear on quick view when opened a new product
+Fixed: Selected filter lose background color
+
+------------------ VER 1.0.0 ---------------
+Initial Release

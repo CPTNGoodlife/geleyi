@@ -1,0 +1,930 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OptimizePress 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-26 13:26-0000\n"
+"PO-Revision-Date: 2012-01-26 13:31-0000\n"
+"Last-Translator: Mathew Chapman <mat@deerdigital.com>\n"
+"Language-Team:  <support@optimizepress.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__;esc_attr_e;esc_html_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/admin/assets.php:23
+#: lib/admin/assets.php:54
+msgid "Insert An Asset"
+msgstr ""
+
+#: lib/admin/assets.php:53
+msgid "OptimizePress Assets"
+msgstr ""
+
+#: lib/admin/install.php:46
+#: lib/admin/theme_settings.php:21
+#: lib/admin/theme_settings.php:103
+#: lib/admin/wizard.php:84
+msgid "Verification failed, please refresh the page and try again."
+msgstr ""
+
+#: lib/admin/post_page.php:72
+msgid "Page Template Options"
+msgstr ""
+
+#: lib/admin/post_page.php:72
+msgid "Select the template style for your page/post"
+msgstr ""
+
+#: lib/admin/theme_settings.php:31
+#: lib/tpl/wizard/header.php:13
+msgid "Brand"
+msgstr ""
+
+#: lib/admin/theme_settings.php:32
+msgid "Layout Structure"
+msgstr ""
+
+#: lib/admin/theme_settings.php:33
+#: lib/tpl/wizard/header.php:13
+msgid "Modules"
+msgstr ""
+
+#: lib/admin/theme_settings.php:49
+#: lib/tpl/theme_settings/index.php:13
+msgid "Blog Settings"
+msgstr ""
+
+#: lib/admin/theme_settings.php:69
+msgid "Theme"
+msgstr ""
+
+#: lib/admin/theme_settings.php:106
+#: lib/admin/wizard.php:88
+msgid "Your theme has been changed. Please review ALL settings"
+msgstr ""
+
+#: lib/admin/theme_settings.php:128
+msgid "There was a problem processing the form, please review the errors below"
+msgstr ""
+
+#: lib/admin/theme_settings.php:130
+msgid "Your blog settings have been updated."
+msgstr ""
+
+#: lib/admin/theme_settings.php:136
+#: lib/admin/wizard.php:98
+msgid "No themes were found. Please check the themes directory is present and contains themes."
+msgstr ""
+
+#: lib/admin/wizard.php:20
+msgid "Continue to step 2: Brand your blog"
+msgstr ""
+
+#: lib/admin/wizard.php:21
+msgid "Continue to step 3: Choose layout"
+msgstr ""
+
+#: lib/admin/wizard.php:22
+msgid "Continue to step 4: Blog modules"
+msgstr ""
+
+#: lib/admin/wizard.php:23
+msgid "Continue to step 5: Finish Setup"
+msgstr ""
+
+#: lib/admin/wizard.php:41
+msgid "Setup Wizard"
+msgstr ""
+
+#: lib/admin/wizard.php:65
+msgid "You have completed the wizard."
+msgstr ""
+
+#: lib/assets/default.php:38
+msgid "Arrows"
+msgstr ""
+
+#: lib/assets/default.php:39
+msgid "Audio Player"
+msgstr ""
+
+#: lib/assets/default.php:40
+msgid "Bullet Block"
+msgstr ""
+
+#: lib/assets/default.php:41
+msgid "Button"
+msgstr ""
+
+#: lib/assets/default.php:42
+msgid "Content Toggle"
+msgstr ""
+
+#: lib/assets/default.php:43
+msgid "Divider"
+msgstr ""
+
+#: lib/assets/default.php:44
+msgid "Feature Block"
+msgstr ""
+
+#: lib/assets/default.php:45
+msgid "Feature Box"
+msgstr ""
+
+#: lib/assets/default.php:46
+msgid "Guarantee Box"
+msgstr ""
+
+#: lib/assets/default.php:47
+msgid "Headline"
+msgstr ""
+
+#: lib/assets/default.php:48
+msgid "Hyperlink"
+msgstr ""
+
+#: lib/assets/default.php:49
+msgid "One Time Offer"
+msgstr ""
+
+#: lib/assets/default.php:50
+msgid "Optin Box"
+msgstr ""
+
+#: lib/assets/default.php:51
+msgid "Order Box"
+msgstr ""
+
+#: lib/assets/default.php:52
+msgid "Order Step Graphics"
+msgstr ""
+
+#: lib/assets/default.php:53
+msgid "Pricing Graphics"
+msgstr ""
+
+#: lib/assets/default.php:54
+msgid "Q&A Elements"
+msgstr ""
+
+#: lib/assets/default.php:55
+msgid "Tabs"
+msgstr ""
+
+#: lib/assets/default.php:56
+msgid "Testimonials"
+msgstr ""
+
+#: lib/assets/default.php:57
+msgid "Tour Elements"
+msgstr ""
+
+#: lib/assets/default.php:58
+msgid "Video Player"
+msgstr ""
+
+#: lib/functions/fonts.php:162
+#: lib/functions/general.php:25
+msgid "Default"
+msgstr ""
+
+#: lib/functions/fonts.php:190
+msgid "Normal"
+msgstr ""
+
+#: lib/functions/fonts.php:191
+msgid "Italic"
+msgstr ""
+
+#: lib/functions/fonts.php:192
+msgid "Bold"
+msgstr ""
+
+#: lib/functions/fonts.php:193
+msgid "Bold/Italic"
+msgstr ""
+
+#: lib/functions/general.php:90
+msgid "Help Video"
+msgstr ""
+
+#: lib/functions/general.php:90
+msgid "Help"
+msgstr ""
+
+#: lib/functions/general.php:465
+msgid "The file you tried to upload is not a valid image."
+msgstr ""
+
+#: lib/functions/scripts.php:155
+msgid "Site Title"
+msgstr ""
+
+#: lib/functions/scripts.php:156
+msgid "Set the styling for your site title (if activated in the blog header options)"
+msgstr ""
+
+#: lib/functions/scripts.php:159
+msgid "Site Tagline"
+msgstr ""
+
+#: lib/functions/scripts.php:160
+msgid "Set the styling for your site tagline (shows below site title)"
+msgstr ""
+
+#: lib/functions/scripts.php:163
+msgid "Theme Text/Paragraph Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:164
+msgid "Set the styling for the blog paragraph styling and general text styles"
+msgstr ""
+
+#: lib/functions/scripts.php:167
+msgid "H1 Heading Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:168
+msgid "Set the font, styling, size and colour for the H1 Headings"
+msgstr ""
+
+#: lib/functions/scripts.php:171
+msgid "H2 Heading Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:172
+msgid "Set the font, styling, size and colour for the H2 Headings"
+msgstr ""
+
+#: lib/functions/scripts.php:175
+msgid "H3 Heading Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:176
+msgid "Set the font, styling, size and colour for the H3 Headings"
+msgstr ""
+
+#: lib/functions/scripts.php:179
+msgid "H4 Heading Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:180
+msgid "Set the font, styling, size and colour for the H4 Headings"
+msgstr ""
+
+#: lib/functions/scripts.php:183
+msgid "H5 Heading Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:184
+msgid "Set the font, styling, size and colour for the H5 Headings"
+msgstr ""
+
+#: lib/functions/scripts.php:187
+msgid "H6 Heading Styles"
+msgstr ""
+
+#: lib/functions/scripts.php:188
+msgid "Set the font, styling, size and colour for the H6 Headings"
+msgstr ""
+
+#: lib/modules/advertising/tpl/advert_entry.php:10
+#, php-format
+msgid "Ensure you upload a banner with the dimensions %s"
+msgstr ""
+
+#: lib/modules/advertising/tpl/advert_entry.php:25
+#: lib/modules/scripts/scripts.php:50
+#: lib/modules/scripts/scripts.php:112
+msgid "Add New"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:4
+msgid "File"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:5
+msgid "URL"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:14
+#: lib/modules/advertising/tpl/single.php:8
+msgid "View File"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:14
+#: lib/modules/advertising/tpl/single.php:8
+msgid "Remove Image"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:21
+msgid "URL:"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:27
+msgid "Link to:"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:30
+#: lib/modules/scripts/scripts.php:43
+#: lib/modules/scripts/scripts.php:106
+msgid "Move Up"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:30
+#: lib/modules/scripts/scripts.php:43
+#: lib/modules/scripts/scripts.php:106
+msgid "Move Down"
+msgstr ""
+
+#: lib/modules/advertising/tpl/multi_row.php:30
+#: lib/modules/scripts/scripts.php:43
+#: lib/modules/scripts/scripts.php:106
+msgid "Remove"
+msgstr ""
+
+#: lib/modules/advertising/tpl/single.php:12
+msgid "Hosted elsewhere? Paste the link below"
+msgstr ""
+
+#: lib/modules/advertising/tpl/single.php:15
+msgid "Where do you wish this advertisement to link to?"
+msgstr ""
+
+#: lib/modules/comments/comments.php:63
+msgid "Comment Options"
+msgstr ""
+
+#: lib/modules/comments/comments.php:64
+#: lib/modules/comments/comments.php:115
+msgid "Wordpress Comments"
+msgstr ""
+
+#: lib/modules/comments/comments.php:65
+msgid "Let your visitors comment on this content via the Wordpress comments system"
+msgstr ""
+
+#: lib/modules/comments/comments.php:68
+#: lib/modules/comments/comments.php:123
+msgid "Facebook Comments"
+msgstr ""
+
+#: lib/modules/comments/comments.php:69
+msgid "Let your visitors comment on this content via the Facebook comments system. Ensure you have setup your Facebook App ID in the OptimizePress Blog Settings"
+msgstr ""
+
+#: lib/modules/comments/comments.php:72
+msgid "Comment Options"
+msgstr ""
+
+#: lib/modules/comments/comments.php:130
+msgid "Application ID"
+msgstr ""
+
+#: lib/modules/comments/comments.php:131
+msgid "Enter your Facebook App ID here.  Setup your Facebook App at <a href=\"http://developers.facebook.com/setup\">http://developers.facebook.com/setup</a>"
+msgstr ""
+
+#: lib/modules/comments/comments.php:137
+#: lib/modules/signup_form/signup_form.php:303
+msgid "Title"
+msgstr ""
+
+#: lib/modules/comments/comments.php:138
+msgid "Enter the title for your Facebook comments section"
+msgstr ""
+
+#: lib/modules/comments/comments.php:143
+msgid "Hide Like button"
+msgstr ""
+
+#: lib/modules/comments/comments.php:144
+msgid "Hide the Facebook Like button above the comments"
+msgstr ""
+
+#: lib/modules/comments/comments.php:147
+msgid "Language"
+msgstr ""
+
+#: lib/modules/comments/comments.php:148
+msgid "Set the language for your Facebook comments system here"
+msgstr ""
+
+#: lib/modules/comments/comments.php:159
+msgid "Dark Site?"
+msgstr ""
+
+#: lib/modules/comments/comments.php:160
+msgid "Check if your site is dark to allow easier to see colours"
+msgstr ""
+
+#: lib/modules/comments/comments.php:163
+msgid "Number of posts to show"
+msgstr ""
+
+#: lib/modules/comments/comments.php:164
+msgid "Enter the number of Facebook comments to show by default (we recommend 10)"
+msgstr ""
+
+#: lib/modules/continue_reading/continue_reading.php:16
+msgid "Link text"
+msgstr ""
+
+#: lib/modules/continue_reading/continue_reading.php:17
+msgid "Enter the Continue Reading link text for your blog.  To add arrows to your link use &amp;rarr;"
+msgstr ""
+
+#: lib/modules/post_feature/tpl/settings.php:4
+msgid "This box sits beneath posts and acts as a call to action"
+msgstr ""
+
+#: lib/modules/promotion/promotion.php:12
+msgid "Affiliate URL"
+msgstr ""
+
+#: lib/modules/promotion/promotion.php:13
+msgid "Enter your OptimizePress affiliate URL here.  This will link to the &quot;Powered by OptimizePress 2.0&quot; message in the footer.  To promote OptimizePress join at <a href=\"http://www.joltaffiliates.com\">http://www.joltaffiliates.com</a>. ; Leave blank to remove &quot;Powered by&hellip;&quot; message."
+msgstr ""
+
+#: lib/modules/scripts/scripts.php:30
+#: lib/sections/modules.php:39
+msgid "Other Scripts"
+msgstr ""
+
+#: lib/modules/scripts/scripts.php:31
+#: lib/modules/scripts/scripts.php:90
+msgid "Add other scripts to your website, this is great for things like Google Analytics"
+msgstr ""
+
+#: lib/modules/scripts/scripts.php:38
+#: lib/modules/scripts/scripts.php:101
+msgid "Header"
+msgstr ""
+
+#: lib/modules/scripts/scripts.php:39
+#: lib/modules/scripts/scripts.php:102
+msgid "Footer"
+msgstr ""
+
+#: lib/modules/seo/seo.php:23
+msgid "SEO Meta Tags"
+msgstr ""
+
+#: lib/modules/seo/seo.php:24
+msgid "Add custom meta tags to help with SEO rankings and search engine indexing. This will override any settings in your Blog Settings SEO section"
+msgstr ""
+
+#: lib/modules/seo/seo.php:26
+#: lib/modules/seo/seo.php:62
+msgid "Meta Title"
+msgstr ""
+
+#: lib/modules/seo/seo.php:27
+msgid "Set the title for this page/post"
+msgstr ""
+
+#: lib/modules/seo/seo.php:30
+#: lib/modules/seo/seo.php:67
+msgid "Meta Description"
+msgstr ""
+
+#: lib/modules/seo/seo.php:31
+msgid "Set the description for your page/post. Some search engines will pull this information to show next to your site listing in their search results"
+msgstr ""
+
+#: lib/modules/seo/seo.php:34
+#: lib/modules/seo/seo.php:72
+msgid "Meta Keywords"
+msgstr ""
+
+#: lib/modules/seo/seo.php:35
+msgid "Set the keywords for your page/post"
+msgstr ""
+
+#: lib/modules/seo/seo.php:60
+msgid "These options are set across the blog globally. You can edit specific SEO for posts &amp; pages with those pages under the &quot;OptimizePress Settings&quot; tab."
+msgstr ""
+
+#: lib/modules/seo/seo.php:63
+msgid "Set the site wide title for your blog."
+msgstr ""
+
+#: lib/modules/seo/seo.php:68
+msgid "Set the default site wide description for your site.  Some search engines will pull this information to show next to your site listing in their search results"
+msgstr ""
+
+#: lib/modules/seo/seo.php:73
+msgid "Set the default site wide keywords for your site. "
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:44
+msgid "Opt-In HTML"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:45
+msgid "Colour Scheme"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:46
+msgid "Content"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:138
+msgid "Style 1"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:142
+msgid "Style 2"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:146
+msgid "Style 3"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:150
+msgid "Style 4"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:154
+msgid "Style 5"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:158
+msgid "Style 6"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:162
+msgid "Style 7"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:166
+msgid "Style 8"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:304
+msgid "Enter a title to be displayed above your optin form"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:307
+msgid "Form Header"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:308
+msgid "Enter a call to action for your form - tell the visitor what to do (e.g. Complete the form below&hellip;)"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:311
+msgid "Footer Security Note"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:312
+msgid "Enter your security or spam notice here to reassure your visitors their details will be safe with you"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:315
+msgid "Name Default Value"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:316
+msgid "Enter the default text for the Name input field"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:319
+msgid "Email Default Value"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:320
+msgid "Enter the default text for the Email input field"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:323
+msgid "Submit Button"
+msgstr ""
+
+#: lib/modules/signup_form/signup_form.php:324
+msgid "Enter the text for the submit button on your feature area optin form"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:7
+msgid "Embed Code:"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:8
+msgid "Enter external video embed code here.  Enter codes from EVP, or any external hosts like YouTube here"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:13
+msgid "Enter your hosted video URL here.  We recommend using Amazon S3 or a similar professional video host."
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:18
+msgid "Hide Controls:"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:19
+msgid "Hide the video controls for your video (control bar etc)"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:24
+msgid "Auto Play:"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:25
+msgid "Set your video to auto play on the load of the page"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:30
+msgid "Auto Buffering:"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:31
+msgid "Enabling auto buffering will allow the video to be loaded before the user clicks play"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:35
+msgid "Width:"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:36
+msgid "Set the width of your video"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:39
+msgid "Height:"
+msgstr ""
+
+#: lib/modules/video/tpl/video_panel.php:40
+msgid "Set the height of your video"
+msgstr ""
+
+#: lib/sections/brand.php:10
+msgid "Setup your Blog Header"
+msgstr ""
+
+#: lib/sections/brand.php:15
+msgid "Upload your Favicon"
+msgstr ""
+
+#: lib/sections/brand.php:20
+msgid "Choose your Colour Scheme"
+msgstr ""
+
+#: lib/sections/brand.php:25
+msgid "Choose your Navigation Bar Colour Scheme"
+msgstr ""
+
+#: lib/sections/brand.php:30
+msgid "Copyright Notice"
+msgstr ""
+
+#: lib/sections/brand.php:35
+msgid "Info Bar (RSS, etc)"
+msgstr ""
+
+#: lib/sections/brand.php:40
+msgid "Typography"
+msgstr ""
+
+#: lib/sections/brand.php:134
+msgid "Footer background colour"
+msgstr ""
+
+#: lib/sections/brand.php:135
+msgid "Topbar BG Colour"
+msgstr ""
+
+#: lib/sections/brand.php:136
+#: lib/tpl/sections/header_prefs.php:33
+msgid "Link Colour"
+msgstr ""
+
+#: lib/sections/layout.php:10
+msgid "Sidebar Column Preferences"
+msgstr ""
+
+#: lib/sections/layout.php:15
+msgid "Header Preferences"
+msgstr ""
+
+#: lib/sections/layout.php:20
+msgid "Footer Preferences"
+msgstr ""
+
+#: lib/sections/layout.php:52
+#, php-format
+msgid "The %1$s column must be between %2$s and %3$s."
+msgstr ""
+
+#: lib/sections/modules.php:10
+msgid "Sharing"
+msgstr ""
+
+#: lib/sections/modules.php:16
+msgid "Related Posts Box"
+msgstr ""
+
+#: lib/sections/modules.php:22
+msgid "Promotion Settings"
+msgstr ""
+
+#: lib/sections/modules.php:27
+msgid "Comments System"
+msgstr ""
+
+#: lib/sections/modules.php:33
+msgid "SEO Options"
+msgstr ""
+
+#: lib/sections/modules.php:45
+msgid "Last but not least, Continue Reading Links"
+msgstr ""
+
+#: lib/tpl/install/index.php:11
+#: lib/tpl/theme_settings/index.php:18
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+msgstr ""
+
+#: lib/tpl/install/index.php:16
+msgid "Email Address"
+msgstr ""
+
+#: lib/tpl/install/index.php:20
+msgid "Order Number"
+msgstr ""
+
+#: lib/tpl/install/index.php:30
+msgid "Save settings"
+msgstr ""
+
+#: lib/tpl/post_page/index.php:5
+#: lib/tpl/post_page/index.php:10
+msgid "OptimizePress Settings"
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:5
+msgid "Upload a logo (optional)"
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:6
+msgid "Upload a logo image to show on your blog.  We recommend you size your logo to 250px by 150px"
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:22
+msgid "Upload Header Background Image"
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:23
+msgid "Recommended if you don't have a logo.  Upload a header image up to 975px in width with any graphics on it, and we'll throw that on instead."
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:36
+msgid "Upload Repeating Header Background Image"
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:37
+msgid "This would normally be a gradient.  Upload a repeating header background image which will be tiled horizontally on your header.  We recommend you use a gradient of your choice which is 1px by 250px"
+msgstr ""
+
+#: lib/tpl/sections/blog_header.php:50
+msgid "or Choose a header background colour"
+msgstr ""
+
+#: lib/tpl/sections/color_scheme.php:3
+msgid "Choose From Our Pre-Existing Options"
+msgstr ""
+
+#: lib/tpl/sections/color_scheme.php:4
+msgid "Select from the options available below to customise the colour schemes for your blog feature area and top navigation."
+msgstr ""
+
+#: lib/tpl/sections/color_scheme.php:26
+msgid "Choose Your Colour Scheme"
+msgstr ""
+
+#: lib/tpl/sections/column_layout.php:28
+#: lib/tpl/sections/footer_prefs.php:33
+msgid "Choose the width of your columns"
+msgstr ""
+
+#: lib/tpl/sections/column_layout.php:37
+#, php-format
+msgid "Enter the width of your sidebar. Enter a value between %1$s and %2$s or click Default to restore default setting"
+msgstr ""
+
+#: lib/tpl/sections/copyright_notice.php:2
+msgid "Copyright Notice (Displayed in the Footer)"
+msgstr ""
+
+#: lib/tpl/sections/copyright_notice.php:3
+msgid "Enter a copyright notice to be used in the footer of your site.  Use &amp;copy; for the &copy; symbol"
+msgstr ""
+
+#: lib/tpl/sections/favicon.php:2
+msgid "Upload your favicon"
+msgstr ""
+
+#: lib/tpl/sections/favicon.php:3
+msgid "Favicons should be 16px by 16px."
+msgstr ""
+
+#: lib/tpl/sections/footer_prefs.php:29
+msgid "Select the number of columns in your footer"
+msgstr ""
+
+#: lib/tpl/sections/footer_prefs.php:30
+msgid "Choose 1-4 columns for your blog footer. Set the column widths below"
+msgstr ""
+
+#: lib/tpl/sections/footer_prefs.php:41
+#, php-format
+msgid "Column %1$s"
+msgstr ""
+
+#: lib/tpl/sections/footer_prefs.php:42
+#, php-format
+msgid "Set the width for column %1$s of your blog footer."
+msgstr ""
+
+#: lib/tpl/sections/footer_prefs.php:42
+msgid " This will be the left-most column"
+msgstr ""
+
+#: lib/tpl/sections/header_prefs.php:38
+msgid "Apply to dropdown menus"
+msgstr ""
+
+#: lib/tpl/sections/info_bar.php:2
+msgid "Twitter URL"
+msgstr ""
+
+#: lib/tpl/sections/info_bar.php:3
+msgid "Enter your URL for your Twitter profile to add a link to the Info Bar. e.g. http://www.twitter.com/yourname"
+msgstr ""
+
+#: lib/tpl/sections/info_bar.php:7
+msgid "Email"
+msgstr ""
+
+#: lib/tpl/sections/info_bar.php:8
+msgid "Enter an email address to add a mailto link in the Info Bar"
+msgstr ""
+
+#: lib/tpl/sections/info_bar.php:11
+msgid "RSS"
+msgstr ""
+
+#: lib/tpl/sections/info_bar.php:12
+msgid "Enter the address of your RSS feed for the Info Bar link. Click Default if you're not sure."
+msgstr ""
+
+#: lib/tpl/sections/typography.php:2
+msgid "Choose your theme typography settings below. Please remember some fonts won't look right at smaller sizes, you can always click \"Reset\" to restore the theme defaults at any time"
+msgstr ""
+
+#: lib/tpl/theme_settings/index.php:2
+msgid "Theme Settings"
+msgstr ""
+
+#: lib/tpl/theme_settings/index.php:14
+msgid "Your blog is currently turned:"
+msgstr ""
+
+#: lib/tpl/theme_settings/themes.php:6
+#: lib/tpl/wizard/step1.php:6
+msgid "Theme Style"
+msgstr ""
+
+#: lib/tpl/theme_settings/themes.php:9
+#: lib/tpl/wizard/step1.php:9
+msgid "Use the options below to choose a look and feel for your blog."
+msgstr ""
+
+#: lib/tpl/theme_settings/themes.php:11
+#: lib/tpl/wizard/step1.php:11
+msgid "Selected"
+msgstr ""
+
+#: lib/tpl/theme_settings/themes.php:12
+#: lib/tpl/wizard/step1.php:12
+msgid "Preview"
+msgstr ""
+
+#: lib/tpl/wizard/footer.php:7
+msgid "Cancel Blog Setup"
+msgstr ""
+
+#: lib/tpl/wizard/header.php:6
+msgid "Blog Set-Up Wizard"
+msgstr ""
+
+#: lib/tpl/wizard/step5.php:2
+msgid "Your blog has been successfully setup!"
+msgstr ""
+
+#: lib/tpl/wizard/step5.php:5
+msgid "Continue to theme settings"
+msgstr ""
+

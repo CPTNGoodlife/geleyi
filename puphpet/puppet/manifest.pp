@@ -734,22 +734,21 @@ if has_key($beanstalkd_values, 'install') and $beanstalkd_values['install'] == 1
   beanstalkd::config { $beanstalkd_values: }
 }
 
-
-### Ruby/RVM Manifest ###
+# Ruby/RVM
 include rvm
 
 rvm_system_ruby {
   'ruby-1.9.3-p484':
-  ensure => 'present',
+  ensure      => 'present',
   default_use => true;
 } ->
 
-rvm::system_user { vagrant: ; } ->
+rvm::system_user { vagrant: ;  } ->
 
 rvm_gem {
   'bundler':
-  name => 'bundler',
+  name         => 'bundler',
   ruby_version => 'ruby-1.9.3-p484',
-  ensure => latest,
-  require => Rvm_system_ruby['ruby-1.9.3-p484'];
+  ensure       => latest,
+  require      => Rvm_system_ruby['ruby-1.9.3-p484'];
 }

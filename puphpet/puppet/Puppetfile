@@ -14,5 +14,4 @@ mod 'drush', :git => 'https://github.com/puphpet/puppet-drush.git', :ref => 'new
 mod 'mysql', :git => 'https://github.com/puphpet/puppetlabs-mysql.git'
 mod 'mongodb', :git => 'https://github.com/puphpet/puppetlabs-mongodb.git'
 mod 'beanstalkd', :git => 'https://github.com/puphpet/puppet-beanstalkd.git'
-mod 'nodejs', :git => 'git://github.com/puppetlabs/puppetlabs-nodejs.git'
 mod 'maestrodev/rvm'

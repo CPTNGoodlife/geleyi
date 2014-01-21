@@ -1,0 +1,1 @@
+{"php":{"205e9b01f9c0a1f856f85e3ce1e171e7":"Cannot modify header information - headers already sent by (output started at \/var\/www\/app\/plugins\/woocommerce-advanced-notifications\/woo-includes\/class-wc-dependencies.php:21), \/var\/www\/wp\/wp-includes\/pluggable.php, 896"}}

@@ -1,0 +1,403 @@
+# Copyright (C) 2012 WooCommerce Cart Notices
+# This file is distributed under the same license as the WooCommerce Cart Notices package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Cart Notices 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-cart-notices\n"
+"POT-Creation-Date: 2012-11-30 17:25:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/admin-options.php:38 admin/admin-options.php:47
+#: woocommerce-cart-notices.php:365
+msgid "Cart Notices"
+msgstr ""
+
+#: admin/admin-options.php:39
+msgid "New Notice"
+msgstr ""
+
+#: admin/admin-options.php:52 admin/admin-options.php:123
+#: admin/admin-options.php:189
+msgid "Name"
+msgstr ""
+
+#: admin/admin-options.php:53 admin/admin-options.php:124
+#: admin/admin-options.php:156
+msgid "Type"
+msgstr ""
+
+#: admin/admin-options.php:54 admin/admin-options.php:125
+msgid "Message"
+msgstr ""
+
+#: admin/admin-options.php:55 admin/admin-options.php:126
+#: admin/admin-options.php:226
+msgid "Call to Action"
+msgstr ""
+
+#: admin/admin-options.php:56 admin/admin-options.php:127
+#: admin/admin-options.php:238
+msgid "Call to Action URL"
+msgstr ""
+
+#: admin/admin-options.php:57 admin/admin-options.php:128
+msgid "Other"
+msgstr ""
+
+#: admin/admin-options.php:63
+msgid "No notices configured"
+msgstr ""
+
+#: admin/admin-options.php:73
+msgid "Edit"
+msgstr ""
+
+#: admin/admin-options.php:75
+msgid "Disable"
+msgstr ""
+
+#: admin/admin-options.php:75
+msgid "Enable"
+msgstr ""
+
+#: admin/admin-options.php:77
+msgid "Delete"
+msgstr ""
+
+#: admin/admin-options.php:96
+msgid "Minimum order amount: %s"
+msgstr ""
+
+#: admin/admin-options.php:97
+msgid "Threshold amount: %s"
+msgstr ""
+
+#: admin/admin-options.php:100
+msgid "Deadline Hour: %s"
+msgstr ""
+
+#: admin/admin-options.php:101
+msgid "Active Days: %s"
+msgstr ""
+
+#: admin/admin-options.php:104
+msgid "Referring Site: %s"
+msgstr ""
+
+#: admin/admin-options.php:107
+msgid "Products: %s"
+msgstr ""
+
+#: admin/admin-options.php:110
+msgid "Categories: %s"
+msgstr ""
+
+#: admin/admin-options.php:135
+msgid ""
+"In addition to the default placement on the cart/checkout pages, you can "
+"embed one or all of the notices anywhere on the site with the following "
+"shortcodes:"
+msgstr ""
+
+#: admin/admin-options.php:137
+msgid "%s will embed all notices"
+msgstr ""
+
+#: admin/admin-options.php:138
+msgid "%s will embed just the notice named XXX"
+msgstr ""
+
+#: admin/admin-options.php:139
+msgid "%s will embed just the minimum amount notices"
+msgstr ""
+
+#: admin/admin-options.php:140
+msgid "%s will embed just the deadline notices"
+msgstr ""
+
+#: admin/admin-options.php:141
+msgid "%s will embed just the referer notices"
+msgstr ""
+
+#: admin/admin-options.php:142
+msgid "%s will embed just the products in cart notices"
+msgstr ""
+
+#: admin/admin-options.php:143
+msgid "%s will embed just the categories in cart notices"
+msgstr ""
+
+#: admin/admin-options.php:149
+msgid "Create a New Cart Notice"
+msgstr ""
+
+#: admin/admin-options.php:149 admin/admin-options.php:378
+msgid "Update Cart Notice"
+msgstr ""
+
+#: admin/admin-options.php:161
+msgid "Choose One"
+msgstr ""
+
+#: admin/admin-options.php:170
+msgid ""
+"This notice will appear on the cart/checkout pages only when the order total "
+"is less than the Minimum Order Amount, and/or is greater than or equal to "
+"the Threshold Amount and is convenient for encouraging customers to increase "
+"their order to qualify for free shipping."
+msgstr ""
+
+#: admin/admin-options.php:173
+msgid ""
+"This notice will appear on the cart/checkout pages only on the Active Days, "
+"and up to the Deadline Hour, based on your WordPress timezone."
+msgstr ""
+
+#: admin/admin-options.php:176
+msgid ""
+"This notice will appear on the cart/checkout pages only when the customer "
+"originated from the configured site."
+msgstr ""
+
+#: admin/admin-options.php:179
+msgid ""
+"This notice will appear on the cart/checkout pages when any of the "
+"configured products appear within the cart."
+msgstr ""
+
+#: admin/admin-options.php:182
+msgid ""
+"This notice will appear on the cart/checkout pages when any of the cart "
+"products belong to any of the categories configured below."
+msgstr ""
+
+#: admin/admin-options.php:198
+msgid "Enabled"
+msgstr ""
+
+#: admin/admin-options.php:207
+msgid "Notice Message"
+msgstr ""
+
+#: admin/admin-options.php:210
+msgid "Depending on the notice type you may use the following variables:"
+msgstr ""
+
+#: admin/admin-options.php:212
+msgid ""
+"With type 'Minimum Amount' this is the amount required to meet the minimum "
+"order amount."
+msgstr ""
+
+#: admin/admin-options.php:213
+msgid ""
+"With type 'Deadline' this is the amount of time remaining, ie '1 hour 15 "
+"minutes' or '25 minutes', etc."
+msgstr ""
+
+#: admin/admin-options.php:214
+msgid ""
+"With type 'Products in Cart' or 'Categories in Cart' these are the matching "
+"product names."
+msgstr ""
+
+#: admin/admin-options.php:215
+msgid "With type 'Categories in Cart' these are the matching category names."
+msgstr ""
+
+#: admin/admin-options.php:231
+msgid "Optional call to action button text, rendered next to the cart notice"
+msgstr ""
+
+#: admin/admin-options.php:243
+msgid ""
+"Optional call to action url, this is where the user will go upon clicking "
+"the Call to Action button"
+msgstr ""
+
+#: admin/admin-options.php:250
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: admin/admin-options.php:262
+msgid "Threshold Amount"
+msgstr ""
+
+#: admin/admin-options.php:267
+msgid ""
+"Optional threshold amount to activate the notice.  If set, the cart must "
+"contain <em>at least</em> this total amount for the notice to be displayed."
+msgstr ""
+
+#: admin/admin-options.php:274
+msgid "Deadline Hour"
+msgstr ""
+
+#: admin/admin-options.php:279
+msgid "Deadline hour in 24-hour format, this can be 1 to 24."
+msgstr ""
+
+#: admin/admin-options.php:287
+msgid "Active Days"
+msgstr ""
+
+#: admin/admin-options.php:300
+msgid "Select the days on which you want this notice to be active."
+msgstr ""
+
+#: admin/admin-options.php:307
+msgid "Referring Site"
+msgstr ""
+
+#: admin/admin-options.php:312
+msgid ""
+"When the visitor originates from this server, they will be shown the referer "
+"cart notice. Example: www.google.com."
+msgstr ""
+
+#: admin/admin-options.php:319
+msgid "Products"
+msgstr ""
+
+#: admin/admin-options.php:322
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: admin/admin-options.php:336
+msgid "Shipping Countries"
+msgstr ""
+
+#: admin/admin-options.php:339
+msgid "Choose Countries&hellip;"
+msgstr ""
+
+#: admin/admin-options.php:347
+msgid ""
+"Optional list of countries used to trigger the message when the shipping "
+"country is available and matches one of the countries selected here."
+msgstr ""
+
+#: admin/admin-options.php:354
+msgid "Categories"
+msgstr ""
+
+#: admin/admin-options.php:357
+msgid "Search for a caetgory&hellip;"
+msgstr ""
+
+#: admin/admin-options.php:374
+msgid "Create Cart Notice"
+msgstr ""
+
+#: admin/admin-options.php:403
+msgid "Example Notice"
+msgstr ""
+
+#: admin/admin-options.php:409
+msgid ""
+"With the current configuration your cart notice will display when the order "
+"total is less than <strong>%s</strong> and will resemble:"
+msgstr ""
+
+#: admin/admin-options.php:411
+msgid ""
+"With the current configuration your cart notice will display when the order "
+"total is greter than or equal to <strong>%s</strong> and will resemble:"
+msgstr ""
+
+#: admin/admin-options.php:413
+msgid ""
+"With the current configuration your cart notice will display when the order "
+"total is between <strong>%s</strong> and <strong>%s</strong> and will "
+"resemble:"
+msgstr ""
+
+#: admin/admin-options.php:416
+msgid "With the current configuration your cart notice will resemble: "
+msgstr ""
+
+#: admin/admin-options.php:421
+msgid "No notice"
+msgstr ""
+
+#: admin/admin-options.php:428
+msgid ""
+"Add <strong>{amount_under}</strong> to your cart in order to receive free "
+"shipping!"
+msgstr ""
+
+#: admin/admin-options.php:429
+msgid ""
+"Order within the next <strong>{time}</strong> and your order ships today!"
+msgstr ""
+
+#: woocommerce-cart-notices.php:190
+msgid "You must choose a Notice Type"
+msgstr ""
+
+#: woocommerce-cart-notices.php:196
+msgid "You must provide a Notice Name"
+msgstr ""
+
+#: woocommerce-cart-notices.php:207
+msgid "That name is already in use"
+msgstr ""
+
+#: woocommerce-cart-notices.php:212
+msgid "Minimum order amount must be positive number, or empty"
+msgstr ""
+
+#: woocommerce-cart-notices.php:217
+msgid "Threshold amount must be positive number, or empty"
+msgstr ""
+
+#: woocommerce-cart-notices.php:222
+msgid "Deadline hour must be in 24-hour format, between 1 to 24"
+msgstr ""
+
+#. #-#-#-#-#  woocommerce-cart-notices.pot (WooCommerce Cart Notices 1.0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: woocommerce-cart-notices.php:364
+msgid "WooCommerce Cart Notices"
+msgstr ""
+
+#: woocommerce-cart-notices.php:386
+msgid "Configure"
+msgstr ""
+
+#: woocommerce-cart-notices.php:418
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: woocommerce-cart-notices.php:815
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-cart-notices.php:816
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/cart-notices/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin provides cart notices for your shop"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Justin Stern"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.foxrunsoftware.net"
+msgstr ""

@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Holtwood One SC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Holtwood One SC'), local('HoltwoodOneSC'), url('http://themes.googleusercontent.com/static/fonts/holtwoodonesc/v4/sToOq3cIxbfnhbEkgYNuBfyANVbuiJM3Q3GKGSGeYMA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url('http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v4/YDAoLskQQ5MOAgvHUQCcLRTHiN2BPBirwIkMLKUspj4.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lobster'), url('http://themes.googleusercontent.com/static/fonts/lobster/v5/MWVf-Rwh4GLQVBEwbyI61Q.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lora'), url('http://themes.googleusercontent.com/static/fonts/lora/v5/5-AYViExptypIdFoLKAxTA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url('http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReXSZ6Kd_eOJbDsY1hLBynIs.woff') format('woff');
+}
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), local('RussoOne-Regular'), url('http://themes.googleusercontent.com/static/fonts/russoone/v1/RO6e96EC9m6OLO0tr7J3zz8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Crushed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Crushed'), local('Crushed-Regular'), url('http://themes.googleusercontent.com/static/fonts/crushed/v3/vJMMhmuCfoluXaHh_7G6Og.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url('http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Serif'), local('DroidSerif'), url('http://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaIbN6UDyHWBl620a-IRfuBk.woff') format('woff');
+}
+@font-face {
+  font-family: 'Parisienne';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Parisienne'), local('Parisienne-Regular'), url('http://themes.googleusercontent.com/static/fonts/parisienne/v1/1wiHF6pWOa568Cj3p-anxBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Seaweed Script'), local('SeaweedScript-Regular'), url('http://themes.googleusercontent.com/static/fonts/seaweedscript/v1/eorWAPpOvvWrPw5IHwE60FhlQWQpSCpzb2Peu3I-Q34.woff') format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url('http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans'), local('PTSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v4/LKf8nhXsWg5ybwEGXk8UBQ.woff') format('woff');
+}
+@font-face {
+  font-family: 'Homenaje';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Homenaje'), local('Homenaje-Regular'), url('http://themes.googleusercontent.com/static/fonts/homenaje/v1/jYyetuCOSxcVAexXms8sf_esZW2xOQ-xsNqO47m55DA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Oswald '), local('Oswald'), url('http://themes.googleusercontent.com/static/fonts/oswald/v5/-g5pDUSRgvxvOl5u-a_WHw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Anton'), url('http://themes.googleusercontent.com/static/fonts/anton/v3/tilmJBBU81h1G7ZsdY3Hmw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url('http://themes.googleusercontent.com/static/fonts/greatvibes/v1/6q1c0ofG6NKsEhAc2eh-3YbN6UDyHWBl620a-IRfuBk.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v4/_xyN3apAT_yRRDeqB3sPRg.woff') format('woff');
+}

@@ -1,0 +1,54 @@
+.t1_hc_shortcode_container {
+}
+.t1_hc_shortcode_container .clear{
+    clear: both;
+}
+.t1_hc_shortcode_container .hc_shortcode_facebook {
+    display: none;
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.t1_hc_shortcode_container .hc_shortcode_facebook .hc_facebook_not_connected {
+    display: none;
+}
+.t1_hc_shortcode_container .hc_shortcode_facebook .hc_facebook_connected {
+    display: none;
+}
+.t1_hc_shortcode_container .hc_shortcode_facebook .hc_connect_with_facebook {
+    border: 1px solid #ccc;
+    background-color: #5F78AB;
+    border-bottom: 1px solid #1A356E;
+    border-top: 1px solid #879AC0;
+    font-weight: bold;
+    color: #ffffff;
+}
+.t1_hc_shortcode_container .hc_shortcode_form {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.t1_hc_shortcode_container .hc_shortcode_form .hc_form_text {
+    font-weight: bold;
+}
+.t1_hc_shortcode_container .hc_shortcode_form .hc_form_item {
+    width: 120px;
+    margin-bottom: 10px;
+}
+.t1_hc_shortcode_container .hc_shortcode_form .hc_form_item .hc_form_label{
+    float: left;
+    width: 100px;
+}
+.t1_hc_shortcode_container .hc_shortcode_form .hc_form_item .hc_form_txt_input{
+    float: left;
+    width: 110px;
+}
+.t1_hc_shortcode_container .hc_shortcode_form .hc_form_item .hc_form_txt_button{
+    float: right;
+    width: 110px;
+}
+.t1_hc_shortcode_container #hc_form_submit{
+    width: 110px;
+}

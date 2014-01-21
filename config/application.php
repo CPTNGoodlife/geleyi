@@ -31,7 +31,7 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
  */
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
-$table_prefix = 'wp_';
+$table_prefix = 'gyi_';
 
 /**
  * WordPress Localized Language
