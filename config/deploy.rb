@@ -1,5 +1,5 @@
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'geleyi'
+set :repo_url, 'git@github.com:geleyi/geleyi.git'
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
@@ -12,7 +12,7 @@ set :repo_url, 'git@example.com:me/my_repo.git'
 # This could be overridden in a stage config file
 set :branch, :master
 
-set :deploy_to, "/srv/www/#{fetch(:application)}"
+#set :deploy_to, "/srv/www/#{fetch(:application)}"
 
 set :log_level, :info
 
